@@ -6,4 +6,11 @@ fun main(args: Array<String>) {
     circle.printDimensions()
     println("Area: ${circle.getArea()}\n")
 
+    val square = Square("Square")
+
+    println("Shape: ${square.name}")
+    square.setDimensions()
+    square.printDimensions()
+    println("Area: ${square.getArea()}\n")
+
 }
