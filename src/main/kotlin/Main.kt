@@ -13,4 +13,11 @@ fun main(args: Array<String>) {
     square.printDimensions()
     println("Area: ${square.getArea()}\n")
 
+    val triangle = Triangle("Triangle")
+
+    println("Shape: ${triangle.name}")
+    triangle.setDimensions()
+    triangle.printDimensions()
+    println("Area: ${triangle.getArea()}\n")
+
 }
