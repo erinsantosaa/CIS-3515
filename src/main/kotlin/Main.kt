@@ -20,4 +20,11 @@ fun main(args: Array<String>) {
     triangle.printDimensions()
     println("Area: ${triangle.getArea()}\n")
 
+    val equilateralTriangle = EquilateralTriangle("Equilateral Triangle")
+
+    println("Shape: ${equilateralTriangle.name}")
+    equilateralTriangle.setDimensions()
+    equilateralTriangle.printDimensions()
+    println("Area: ${equilateralTriangle.getArea()}\n")
+
 }
